@@ -16,7 +16,7 @@ print 'Image height: ' + height
 def annotations = getAnnotationObjects()
 
 // Specify the names of the annotations you want to export
-def annotationNames = ['antimesosalpingx epithelium', 'antimesosalpingx muscularus', 'mesosalpingx epithelium', 'mesosalpingx muscularus'] // Replace with your desired names
+def annotationNames = ['antimesosalpinx epithelium', 'antimesosalpinx muscularus', 'mesosalpinx epithelium', 'mesosalpinx muscularus'] // Replace with your desired names
 //def annotationNames = ['antimesosalpingx muscularus', 'mesosalpingx muscularus'] // Replace with your desired names
 // Define a map of annotation names to unique values (1, 2, 3, 4 for each channel)
 def annotationValues = [
